@@ -36,15 +36,6 @@ The different layers used in this model are as follows:
 
 The model makes sure of **Early Stopping** and **Tensorboard** callbacks to prevent overfitting and monitor training respectively.
 
-### Structure
-![Model Structure](./plots/model.jpg)
-
-### Accuracy and Loss
-![Model Structure](./plots/acc_and_loss.jpg)
-
-### Confusion Matrix for Validation data
-![Model Structure](./plots/confusion_matrix.jpg)
-
 ### Metrics
 
 |                               | Train  | Validation | Test   |
@@ -62,4 +53,4 @@ Use the command _**tensorboard --logdir tensorboard_logs/fit**_ using the comman
 ### Notes
 - Make sure to update the _**BASE_PATH**_ constant in _**Train.ipynb**_ to reflect the location where your dataset is stored.
 
-> Developed by - G SHIVA KUMAR & H NAVYASRE E
+> Developed by - G SHIVA KUMAR & H NAVYASREE
